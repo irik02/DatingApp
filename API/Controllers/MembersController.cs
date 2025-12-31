@@ -6,6 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Controllers
 {
+    // Try to commit
     [Route("api/[controller]")] // locahost:5001/api/members
     [ApiController]
     public class MembersController(AppDbContext context) : ControllerBase
